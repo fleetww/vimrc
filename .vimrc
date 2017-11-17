@@ -108,6 +108,10 @@ set shiftwidth=2
 set autoindent
 set smartindent
 
+"Faster moving with C-arrow keys
+nnoremap <silent> <C-Up> 10k
+nnoremap <silent> <C-Down> 10j
+
 "Setting auto wrapping of brackets, parens, braces, and qoutes.
 "Also sets up escaping from those brackets, parens, braces, and quotes.
 inoremap (<CR> ()<Esc>i
